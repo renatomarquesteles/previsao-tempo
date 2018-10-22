@@ -1,0 +1,56 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background: url(blue_skies.jpg);
+    background-repeat: round;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+/* cabeçalho */
+.cabecalho {
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    color: #E4E4E4;
+    margin: 50px;
+}
+.info-box {
+    background: rgba(255,255,255,0.7);
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+.info-box p{
+    color: #445760;
+    margin-top: 50px;
+}
+#mensagem {
+    font-size: 20pt;
+    font-style: italic;
+}
+#graus {
+    font-size: 14pt;
+}
